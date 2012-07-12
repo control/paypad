@@ -1,0 +1,14 @@
+/* #Device 
+================================================== */
+body {width:477px;margin:0;padding:0;background-color: #f4f4f4;}
+
+.device-header {
+  height:40px;
+  background-color: #497fba;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom:10px;
+}
+.device-container {
+	padding: 5px;
+}
