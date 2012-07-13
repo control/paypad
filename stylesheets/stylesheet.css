@@ -111,7 +111,7 @@ header img {
 }
 
 .tagline {
-  margin-top:60px;
+  margin-top:80px;
 }
 
 #main-content {
@@ -210,19 +210,9 @@ ul, ol, dl {
 
 
 /* COMMON STYLES */
-/*
-hr {
-  height: 1px;
-  line-height: 1px;
-  margin-top: 1em;
-  padding-bottom: 1em;
-  border: none;
-  background: transparent url('../img/hr.png') 0 0 no-repeat;
-}
-*/
 
 hr {
-background: url(https://s3.amazonaws.com/cdn.tekfolio.me/footer.png) no-repeat top center;
+background: url(../img/footer.png) no-repeat top center;
 height: 20px;
 border: 0;
 }
