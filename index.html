@@ -39,7 +39,7 @@
 
       <div class="row-fluid">
         <div class="span12 tagline" style="opacity: 1; padding-top:30px;padding-bottom:30px;">
-          <h2 style="opacity: 1; text-align: center;">Developers love <a href="https://stripe.com" target="_blank" style="opacity: 1; ">Stripe</a> for its super simple API. You don't need no stinking merchant account. You don't need no stinking gateway. It just works, and it works insanely well. PayPad takes that same Stripe API and makes it equally as awesome by letting you manage your Stripe acount on a beautiful iPad interface. Now you can manage your Stripe account and take payments wherever you can take an iPad (caution: iPads are not waterproof... believe me, I checked).</h2>
+          <h2 style="opacity: 1; text-align: center;">Developers love <a href="https://stripe.com" target="_blank" style="opacity: 1; ">Stripe</a> for its super simple API. Forget merchant accounts and gateways and throwing away your hard earned money on stupid fees. Stripe just works, and it works insanely well. PayPad takes that same Stripe API and makes it equally as awesome by letting you manage your Stripe acount on a beautiful iPad interface. Now you can manage your Stripe account and take payments wherever you can take an iPad (caution: iPads are not waterproof... believe me, I checked).</h2>
         </div>
       </div>
 
@@ -154,13 +154,27 @@
     <script src="javascripts/bootstrap.js"></script>
 
     <script type="text/javascript">
-  var uvOptions = {};
-  (function() {
-    var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
-    uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/XfK2pAqpQ2n3NvgqoOzZVA.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
-  })();
-</script>
+      var uvOptions = {};
+      (function() {
+        var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
+        uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/XfK2pAqpQ2n3NvgqoOzZVA.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
+      })();
+    </script>
+
+    <script type="text/javascript">
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '50031f81f5a1f5283d0000c6');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
 
   </body>
 </html>
