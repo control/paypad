@@ -1,7 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -22,57 +18,63 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
 /* LAYOUT STYLES */
+
 body {
   background: #fafafa url(../img/body-bg.jpg) 0 0 repeat;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: 100;
-  color: #444;
+  font: 15px/1.5 'Helvetica Neue','Open Sans',Arial,'Liberation Sans',FreeSans,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333;
 }
 
 a {
   color: #2879d0;
+  text-decoration: none;
 }
+
 a:hover {
   color: #2268b2;
 }
 
-header {
+header, header.default {
   padding-top: 40px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background: transparent url(../img/header-bg2.png) 0 0 repeat-x;
   color: white;
   text-shadow: 0 0 5px #295391;
   height:175px;
 }
 
-header h1 {
+header h1, header.default h1 {
   letter-spacing: -1px;
   font-size: 60px;
   color: #fff;
@@ -80,6 +82,10 @@ header h1 {
   margin-bottom: 0.2em;
   width: 540px;
   font-weight:normal;
+}
+
+header.default h1 {
+  width: 700px;
 }
 
 header h2 {
@@ -98,6 +104,10 @@ header img {
   -webkit-box-shadow: 0px 5px #e4e5e9;
    -moz-box-shadow: 0px 5px #e4e5e9;
         box-shadow: 0px 5px #e4e5e9;
+}
+
+sup {
+  font-size: 0.33em;
 }
 
 .inner {
@@ -144,39 +154,6 @@ aside#sidebar p.repo-owner a {
   font-weight: bold;
 }
 
-#downloads {
-  margin-bottom: 40px;
-}
-
-a.button {
-  width: 134px;
-  height: 58px;
-  line-height: 1.2;
-  font-size: 23px;
-  color: #fff;
-  padding-left: 68px;
-  padding-top: 22px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-a.button small {
-  display: block;
-  font-size: 11px;
-}
-header a.button {
-  position: absolute;
-  right: 0;
-  top: 0;
-  background: transparent url(../img/github-button.png) 0 0 no-repeat;
-}
-aside a.button {
-  width: 138px;
-  padding-left: 64px;
-  display: block;
-  background: transparent url(../img/download-button.png) 0 0 no-repeat;
-  margin-bottom: 20px;
-  font-size: 21px;
-}
-
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #222;
@@ -197,6 +174,7 @@ pre {
   overflow: auto;
   border: solid 1px #f2f2f2;
 }
+
 pre code {
   color: #2879d0;
   background-color: #fff;
@@ -212,10 +190,11 @@ ul, ol, dl {
 /* COMMON STYLES */
 
 hr {
-background: url(../img/footer.png) no-repeat top center;
-height: 20px;
-border: 0;
+  background: url(../img/footer.png) no-repeat top center;
+  height: 20px;
+  border: 0;
 }
+
 table {
   width: 100%;
   border: 1px solid #ebebeb;
@@ -249,8 +228,7 @@ article p.date {
 }
 
 .container h1, article h1, #posts h1 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 2.8em;
+  font-size: 2.3em;
   letter-spacing: -1px;
   color: #474747;
   margin-bottom: 20px;
@@ -265,8 +243,7 @@ article p.date {
 }
 
 .container h2, article h2, #posts h2 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 8px;
   color: #474747;
@@ -276,27 +253,24 @@ article p.date {
   content: "//";
   color: #295391;
   padding-right: 0.3em;
-  margin-left: -1.5em;
+  margin-left: -1em;
 }
 
 .container h3, article h3, #posts h3 {
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 40px;
-  font-weight: 100;
-  color: #444;
+  color: #111;
 } 
  
 .container h3:before, article h3:before, #posts h3:before {
   content: "///";
   color: #295391;
   padding-right: 0.3em;
-  margin-left: 0em;
+  margin-left: -.5em;
 }
 
 .container h4 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   color: #474747;
 } 
@@ -305,31 +279,31 @@ h4:before {
   content: "////";
   color: #295391;
   padding-right: 0.3em;
-  margin-left: -2.8em;
+  margin-left: -.5em;
 }
 
 .container h5 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-  font-size: 14px;
+  font-size: 12px;
   color: #474747;
 } 
+
 h5:before {
   content: "/////";
   color: #295391;
   padding-right: 0.3em;
-  margin-left: -3.2em;
+  margin-left: -.5em;
 }
 
 .container h6 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
   font-size: .8em;
   color: #474747;
 } 
+
 h6:before {
   content: "//////";
   color: #295391;
   padding-right: 0.3em;
-  margin-left: -3.7em;
+  margin-left: -.5em;
 }
 
 .tagline h2 {
@@ -337,8 +311,9 @@ h6:before {
   font-size: 24px;
   line-height: 40px;
   font-weight: 100;
-  color: #444;
+  color: #000;
 }
+
 .tagline h2:before {
   content: "";
   padding-right: 0em;
@@ -348,13 +323,9 @@ h6:before {
 p {
   margin-bottom: 20px;
 }
- 
-a {
-  text-decoration: none;
-}
 
 p a {
-  font-weight: 400;
+  font-weight: 350;
 }
 
 blockquote {
@@ -383,11 +354,8 @@ footer {
   margin-top: 10px;
   padding-top: 20px;
   padding-bottom: 30px;
-
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 30px;
-  font-weight: 100;
   color: #444;
 }
 
@@ -408,11 +376,35 @@ footer a:hover {
 }
 
 .row-fluid {
-  font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
   font-weight: 200;
   color: #444;
+}
+
+.app-icon {
+  height:55px;
+  width:55px;
+}
+
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+dt {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+.meta-small {
+  font-size: 12px;
 }
 
 .clearfix {display: inline-block;}
@@ -546,7 +538,6 @@ footer a:hover {
     max-width:300px;
   }
   p {
-    font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 16px;
     padding-left: 5px;
     padding-right: 5px;
@@ -554,51 +545,6 @@ footer a:hover {
     font-weight: 100;
     padding-top:5px !important;
   }
-  /*.container h1, article h1, #posts h1 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 2.8em;
-    letter-spacing: -1px;
-    color: #474747;
-    margin-bottom: 20px;
-    margin-top: 20px;
-  } 
-
-  .container h1:before, article h1:before, #posts h1:before  {
-    content: "/";
-    color: #295391;
-    padding-right: 0.3em;
-    margin-left: -0.9em;
-  }
-
-  .container h2, article h2, #posts h2 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 8px;
-    color: #474747;
-  } 
-
-  .container h2:before, article h2:before, #posts h2:before {
-    content: "//";
-    color: #295391;
-    padding-right: 0.3em;
-    margin-left: -1.5em;
-  }
-
-  .container h3, article h3, #posts h3 {
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 24px;
-    line-height: 40px;
-    font-weight: 100;
-    color: #444;
-  } 
-   
-  .container h3:before, article h3:before, #posts h3:before {
-    content: "///";
-    color: #295391;
-    padding-right: 0.3em;
-    margin-left: -2em;
-  }*/
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */

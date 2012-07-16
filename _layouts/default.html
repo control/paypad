@@ -26,10 +26,10 @@
   </head>
 
   <body>
-    <header>
+    <header class="default">
       <div class="inner">
         <h1>{{ page.title }}</h1>
-        <h2>iPad app for the Stripe API</h2>
+        <h2>iPad<sup>®</sup> app for the Stripe API</h2>
       </div>
     </header>
 
@@ -47,18 +47,96 @@
           <p>The official support site for <a href="/">PayPad</a>.</p>
 
           <p>This site was proudly built with <a href="http://pages.github.com/">GitHub Pages</a>, using the Architect theme by <a href="https://twitter.com/jasonlong">@jasonlong</a>.</p>
+
+          <div itemscope itemtype="http://schema.org/SoftwareApplication">
+            <p style="margin-bottom:1px;">
+              <meta itemprop="image" content="http://www.pay-pad.com/img/PayPad-Icon-72@2x.png" />
+              <img class="app-icon" src="/img/PayPad-Icon-72@2x.png" />
+            </p>
+            <div>
+                <p style="margin-bottom:1px;">
+                  <strong itemprop="name">PayPad for Stripe</strong>
+                </p>
+                <p itemprop="description" style="margin-bottom:1px;">
+                  an iPad app for the <a href="http://www.stripe.com">Stripe</a> API
+                </p>
+            </div>
+            <div>
+
+                <a title="Download the PayPad for Stripe app from the iTunes store now" href="http://itunes.apple.com/us/app/paypad/id460852653?mt=8" target="_blank" itemprop="url">
+                  <img title="app-store-badge" src="http://r.mzstatic.com/images/web/linkmaker/badge_appstore-sm.gif" alt="Download the PayPad for Stripe app from the iTunes store now" />
+                </a>
+
+                <dl class="meta-small">
+                  <dt>Updated:</dt>
+                  <dd><time itemprop="datePublished">July 25, 2012</time></dd>
+                  <dt>Current Version:</dt>
+                  <dd itemprop="softwareVersion">1.0.1</dd>
+                  <dt itemprop="operatingSystems" content="iOS">Requires iPad iOS:</dt>
+                  <dd>5.1 and up</dd>
+                  <dt>Size:</dt>
+                  <dd itemprop="fileSize">5.0 MB</dd>
+                  <dt>Price:</dt>
+                  <dd itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                      <span itemprop="price">$4.99</span>
+                  </dd>
+                </dl>
+            </div>
+          </div>
+
+          <br />
+          <p>Looking for the free version? Here you go:</p>
+
+          <div itemscope itemtype="http://schema.org/SoftwareApplication">
+            <p style="margin-bottom:1px;">
+              <meta itemprop="image" content="http://www.pay-pad.com/img/PayPad-Viewer-Icon-72@2x.png" />
+              <img class="app-icon" src="/img/PayPad-Viewer-Icon-72@2x.png" />
+            </p>
+            <div>
+                <p style="margin-bottom:1px;">
+                  <strong itemprop="name">PayPad Viewer for Stripe</strong>
+                </p>
+                <p itemprop="description" style="margin-bottom:1px;">
+                  a free iPad app for the <a href="http://www.stripe.com">Stripe</a> API
+                </p>
+            </div>
+            <div>
+                <a title="Download the PayPad Viewer for Stripe app from the iTunes store now" href="http://itunes.apple.com/us/app/paypad-viewer/id460852653?mt=8" target="_blank" itemprop="url">
+                  <img title="app-store-badge" src="http://r.mzstatic.com/images/web/linkmaker/badge_appstore-sm.gif" alt="Download the PayPad Viewer for Stripe app from the iTunes store now" />
+                </a>
+
+                <dl class="meta-small">
+                  <dt>Updated:</dt>
+                  <dd><time itemprop="datePublished">July 25, 2012</time></dd>
+                  <dt>Current Version:</dt>
+                  <dd itemprop="softwareVersion">1.0.1</dd>
+                  <dt itemprop="operatingSystems" content="iOS">Requires iPad iOS:</dt>
+                  <dd>5.1 and up</dd>
+                  <dt>Size:</dt>
+                  <dd itemprop="fileSize">5.0 MB</dd>
+                  <dt>Price:</dt>
+                  <dd itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                      <span itemprop="price">free</span>
+                  </dd>
+                </dl>
+            </div>
+          </div>
           
         </aside>
       </div>
     </div>
 
+    <hr/>
+
     <footer>
 
      <div style="margin:0px auto; width:50%; text-align: center">
-      <a href="/">Home</a> | <a href="/theblog">Blog</a> | <a href="/support">Support</a> | <a href="http://www.twitter.com/getpaypad">Twitter</a>
+      <a href="/">Home</a> | <a href="/theblog">Blog</a> | <a href="/support">Support</a> | <a href="/history">Version History</a> | <a href="/privacy">Privacy and Terms</a>
       <br />
+      <a href="https://twitter.com/getpaypad" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @getpaypad</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-      <div style="font-size: 16px;">
+      <div>
         ©&nbsp;2012 CoovTech, LLC.
         Contact <a href="http://coovtech.com/about">Billy Coover</a> for
         <a href="mailto:info@pay-pad.com" > inquiries</a>. PayPad is built in sunny Scottsdale, AZ.
@@ -90,6 +168,6 @@
         s.parentNode.insertBefore(t, s);
       })();
     </script>
-    
+
   </body>
 </html>
