@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "PayPad: Privacy & Terms"
+title: "<strong>PayPad</strong> Privacy & Terms"
 ---
 
 #Privacy Policy

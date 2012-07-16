@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "PayPad: help"
+title: "Help and <strong>support</strong>."
 ---
 
 #Support

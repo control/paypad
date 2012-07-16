@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "PayPad: Version History"
+title: "Complete version <strong>history</strong>."
 ---
 
 #App Store Version History
