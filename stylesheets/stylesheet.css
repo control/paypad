@@ -51,10 +51,18 @@ table {
 /* LAYOUT STYLES */
 
 body {
-  background: #fafafa url(../img/body-bg.jpg) 0 0 repeat;
+  background: #EEE;
+  padding: 40px 0 0;
+  border-top: 3px solid #DDD;
+}
+
+body {
+  margin: 0;
   font: 15px/1.5 'Helvetica Neue','Open Sans',Arial,'Liberation Sans',FreeSans,sans-serif;
   -webkit-font-smoothing: antialiased;
+  line-height: 18px;
   color: #333;
+  background-color: white;
 }
 
 a {
@@ -89,12 +97,12 @@ header.default h1 {
 }
 
 header h2 {
-  font-size: 26px;
-  color: #9ddcff;
-  font-weight: normal;
-  line-height: 1.3;
-  width: 540px;
-  letter-spacing: 0;
+  text-align: center;
+font-size: 48px;
+line-height: 56px;
+margin: 15px 0;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
 }
 
 header img {
@@ -184,6 +192,33 @@ pre code {
 
 ul, ol, dl {
   margin-bottom: 20px;
+}
+
+.navbar {
+  margin: 0 0 15px;
+}
+.navbar {
+  color: #999;
+}
+
+.navbar-inner {
+  background: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  filter: none;
+}
+
+.navbar .brand {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  padding: 0;
+  margin-left: 0;
+}
+
+.navbar .nav {
+  float: right;
 }
 
 

@@ -8,16 +8,18 @@
     <meta name="copyright" content="CoovTech, LLC" />
     <meta name="description" content="PayPad for Stripe" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap-responsive.min.css" />
-    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+    <link href="/stylesheets/general.css" rel="stylesheet">
     <link rel="author" href="https://profiles.google.com/110690218781759841805" />
     <link rel="me" type="text/html" href="http://profiles.google.com/billycoover?rel=me"> 
     <link rel="me" type="text/html" href="http://twitter.com/billycoover">
     <link href="/img/favicon.png" rel="icon" type="image/x-png" />
     <link rel="Shortcut Icon" href="/images/favicon.png" type="image/x-icon" />
     <meta name="google-site-verification" content="YPIOPwAdNti1PgxYfcHPEn-oEDCIgC3zEXN6X1NGzbY" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Delius+Swash+Caps" rel="stylesheet" type="text/css">
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -27,130 +29,155 @@
   </head>
 
   <body>
-    <header>
-      <div class="inner header">
-        <h1>PayPad for Stripe</h1>
-        <h2>iPad<sup>®</sup> app for the Stripe API</h2>
-        <img src="/img/pay-pad-header.png" />
-      </div>
-    </header>
 
     <div class="container">
-
-      <div class="row-fluid">
-        <div class="span12 tagline" style="padding-top:30px;padding-bottom:30px;">
-          <h2 style="text-align: center;">Developers love <a href="https://stripe.com" target="_blank" style="opacity: 1; ">Stripe</a> for its super simple API. Forget merchant accounts and gateways and throwing away your hard earned money on stupid fees. Stripe just works, and it works insanely well. PayPad takes that same Stripe API and makes it equally as awesome by letting you manage your Stripe acount on a beautiful iPad interface. Now you can manage your Stripe account and take payments wherever you can take an iPad (caution: iPads are not waterproof... believe me, I checked).</h2>
-        </div>
+      <nav class="navbar">
+          <div class="navbar-inner">
+              <div class="container">
+                  <a href="/" class="brand">PayPad for Stripe</a>
+                      <ul class="nav">
+                          <li class="active"><a href="/">Home</a></li>
+                          <li><a href="/theblog">Blog</a></li>
+                          <li><a href="/support">Support</a></li>
+                          <li><a href="/history">Version History</a></li>
+                      </ul>
+              </div>
+          </div>
+      </nav>
+      <div class="row">
+          <div class="feature span12">
+              <h2 class="motto">Manage your Stripe account with <strong>PayPad</strong>.</h2>
+              <h3 class="subheader">The first iPad app for the Stripe API.</h3>
+              <img id="feature-screenshot" src="/img/white-ipad-screenshot.png" alt="screenshot" />
+          </div>
       </div>
-
-      <hr />
-
-      <div class="row-fluid">
-        <div class="span5">
-          <h3>Charges</h3>
-          <img src="/img/recent-charges.png" />
-        </div>
-        <div class="span7">
-          <p style="padding-top: 37px">
-            With PayPad you can view all of your recent charges, starting with the 15 most recent transactions. Do you have more than 15 transactions? Of course you do, because you smell like success. Load up as many historic charges as you want. View the details of every charge. Want to make someone's day? Refund a customer's payment out of the goodness of your heart.
-          </p>
-          <p style="padding-top: 10px">
-            You can also create new charges on the fly, or add charges to your existing customer accounts because they keep calling you at 2am asking if Google is working. PayPad even works for those who sell products out of the trunk of their car; this isn't just for website sales, but is field usable as well!
-          </p>
-        </div>
-      </div>
-      
-      <hr />
-
-      <div class="row-fluid">
-        <div class="span6">
-          <h3>Customers</h3>
-          <p>
-            Access your customer data while on the go! You can view your customer list, create new customer charges, and even refund existing charges.
-          </p>
-        </div>
-        <div class="span6">
-          <img style="padding-top: 37px" src="/img/customer-list.png" />
-        </div>
-      </div>
-
-      <hr />
-
-      <div class="row-fluid">
-        <div class="span5">
-          <h3>Transfers</h3>
-          <img src="/img/bank-transfers.png" />
-        </div>
-        <div class="span7">
-          <p style="padding-top: 37px">
-            Easily reconcile recent charges to your bank account with the Transfers view.
-          </p>
-          <p style="padding-top: 10px">
-            See the transactions that are pending transfer and also transactions that have successfully been deposited into your account.
-          </p>
-        </div>
-      </div>
-
-      <hr />
-
-      <div class="row-fluid">
-        <div class="span6">
-          <h3>Events</h3>
-          <p >
-            Events represent a real-time log of your account activity. You can view your entire event history for the last 30 days.
-          </p>
-        </div>
-        <div class="span6">
-          <img style="padding-top: 37px" src="/img/event-log.png" />
-        </div>
-      </div>
-
-      <hr />
-
-      <div class="row-fluid">
-        <div class="span5">
-          <h3>Safe and Secure</h3>
-          <img src="/img/stripe-oauth.png" />
-        </div>
-        <div class="span7">
-          <p style="padding-top: 37px">
-            PayPad uses OAuth to authenticate with Stripe. We can't see your account credentials so you can rest easy that your Stripe account stays safe and secure. Are you using PayPad right now? I don't know because OAuth is sneaky good!
-          </p>
-        </div>
-      </div>
-
-      <hr />
-
-      <div class="row-fluid">
-        <div class="span12">
-          <h3>Questions</h3>
-          <p>
-            PayPad exists to make you happy. I will suffer a lonely existence without your feedback. If PayPad isn't the best Stripe integrated app you see today, let me know so I can change your mind by making this even better. Click the feedback icon, or shoot me an <a href="mailto:makeitbetter@pay-pad.com" > email</a>.
-          </p>
-        </div>
-      </div>
-
     </div>
 
-    <hr/>
+<div class="container">
+    <h2><strong>Intuitive</strong> mobile payments.</h2>
+    <h3 class="subheader">Accept payments anywhere!</h3>
 
-    <footer>
+    <div class="span12 box drop-shadow">
+        <article class="span10 offset1" style="font-size: 1.2em;">
+          <p>Developers love <a href="https://stripe.com" target="_blank" style="opacity: 1; ">Stripe</a> for its super simple API. Forget merchant accounts and gateways and throwing away your hard earned money on stupid fees. Stripe just works, and it works insanely well. PayPad takes that same Stripe API and makes it equally as awesome by letting you manage your Stripe acount on a beautiful iPad interface. Now you can manage your Stripe account and take payments wherever you can take an iPad (caution: iPads are not waterproof... believe me, I checked).</p>
+        </article>
+    </div>
 
-     <div style="margin:0px auto; width:100%; text-align: center">
-      <a href="/">Home</a> | <a href="/theblog">Blog</a> | <a href="/support">Support</a> | <a href="/history">Version History</a> | <a href="/privacy">Privacy and Terms</a>
-      <br />
-      <a href="https://twitter.com/getpaypad" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @getpaypad</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <div class="row">
+        <div class="span12">
+        <ul class="thumbnails">
+            <li class="span3">
+                <h3 class="subheader">PayPad for Stripe</h3>
+                <p  style="text-align: center;">
+                    The full-feature version of PayPad.
+                </p>
+            </li>
+            <li class="span3">
+                <div style="text-align: center;">
+                    <img src="img/paypad.png" width="144" height="144" alt="">
+                </a>
+            </li>
+            <li class="span3">
+                <div style="text-align: center;">
+                    <img src="img/paypadviewer.png" width="144" height="144" alt="">
+                </div>
+            </li>
+            <li class="span3">
+                <h3 class="subheader">PayPad Viewer</h3>
+                <p  style="text-align: center;">
+                  The free limited feature version of PayPad
+                </p>
+            </li>
+        </ul>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="span12 box drop-shadow">
+            <div class="row">
+                <article class="span6 offset1">
+                    <h3>Card charges.</h3>
+                    <p>With PayPad you can view all of your recent charges, starting with the 20 most recent transactions. Do you have more than 20 transactions? Of course you do, because you smell like success. Load up as many historic charges as you want. View the details of every charge. Want to make someone's day? Refund a customer's payment out of the goodness of your heart. 
+                    </p>
+                </article>
+                <div class="span4">
+                    <img src="/img/recent-charges.png" alt="recent charges" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="span4 offset1">
+                    <img src="/img/customer-list.png" alt="customer list" />
+                </div>
+                <article class="span6">
+                    <h3>View your customers.</h3>
+                    <p>Access your customer data while on the go! You can view your customer list, create new customer charges, and even refund existing charges.</p>
+                </article>
+            </div>
+            <div class="row">
+                <article class="span6 offset1">
+                    <h3>See your bank transfers</h3>
+                    <p>Easily reconcile recent charges to your bank account with the Transfers view. See the transactions that are pending transfer and also transactions that have successfully been deposited into your account. 
+                    </p>
+                </article>
+                <div class="span4">
+                    <img src="/img/bank-transfers.png" alt="transfers" />
+                </div>
+            </div>
+            <div class="row">
+                <article class="span4 offset1">
+                  <img src="/img/bank-transfers.png" alt="events" />
+                </article>
+                <div class="span6">
+                    <h3>Access event logs</h3>
+                    <p>Events represent a real-time log of your account activity. You can view your entire event history for the last 30 days.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <article class="span6 offset1">
+                    <h3>Safe and secure</h3>
+                    <p>PayPad uses OAuth to authenticate with Stripe. We can't see your account credentials so you can rest easy that your Stripe account stays safe and secure. Are you using PayPad right now? I don't know because OAuth is sneaky good! 
+                    </p>
+                </article>
+                <div class="span4">
+                    <img src="/img/stripe-oauth.png" alt="Stripe Platform" />
+                </div>
+            </div>
+            <div class="row">
+                <article class="span10 offset1">
+                  <h3 style="text-align: center;">If you have any questions...</h3>
+                    <p>PayPad exists to make you happy. I will suffer a lonely existence without your feedback. If PayPad isn't the best Stripe integrated app you see today, let me know so I can change your mind by making this even better. Click the feedback icon, or shoot me an <a href="mailto:makeitbetter@pay-pad.com" > email</a>.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
 
-      <div>
-        ©&nbsp;2012 CoovTech, LLC.
+
+<div class="container">
+    <h3 class="subheader">Contact PayPad</h3>
+    <div class="row">
+        <div class="span12">
+            <p>©&nbsp;2012 CoovTech, LLC.
         Contact <a href="http://coovtech.com/about">Billy Coover</a> for
-        <a href="mailto:info@pay-pad.com" > inquiries</a>. PayPad is built in sunny Scottsdale, AZ.
-      </div>
-
-     </div>
-
-    </footer>
+        <a href="mailto:info@pay-pad.com" > inquiries</a>. PayPad is built in sunny Scottsdale, AZ.</p>
+        
+        </div>
+    </div>
+    <div class="row footer">
+        <div class="span12">
+            <ul class="links">
+                <li><a href="http://www.twitter.com/getpaypad"><img src="img/icons/twitter.png" alt="twitter" /></a></li>
+                <li><a href="/theblog">Blog</a></li>
+                <li><a href="/support">Support</a></li>
+                <li><a href="/privacy">Privacy and Terms</a></li>
+                <li><a href="/history">Version History</a></li>
+            </ul>           
+        </div>
+    </div>
+         
+</div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="javascripts/bootstrap.js"></script>
