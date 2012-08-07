@@ -21,6 +21,8 @@ Pay Pad for Stripe puts your Stripe account in your messenger bag (we prefer [th
 - Logs: There are a lot of moving parts with transactions and the log view lets you view the most recent log activity.  
 - Security: Pay Pad for Stripe is built on top of the Stripe Platform and uses OAuth to authenticate with Stripe. This means that you get the same great comfort and security from Stripe with out the hassle of working about complex PCI requirements.
 
+<a href="http://itunes.apple.com/us/app/pay-pad-for-stripe/id545150163?ls=1&mt=8"><img src="/img/app-store-badge.png" alt="Available in the App Store"></a>
+
 #Coming Soon...
 Pay Pad for Stripe is great for activley managing your Stripe account, but if you are like us, you need to delegating the monitoring of that account management because you are far too busy to watch it like a stock ticker. After all, you're not going to be swiping through your recent charges on the back-nine of your local TPC (just the front-nine). 
 
