@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "<strong>PayPad</strong> Privacy & Terms"
+title: "<strong>PayPad for Stripe</strong> Privacy & Terms"
 ---
 
 #Privacy Policy

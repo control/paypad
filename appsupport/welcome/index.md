@@ -1,9 +1,9 @@
 ---
 layout: device
-title: "Welcome to PayPad"
+title: "Welcome to Pay Pad"
 ---
 
-Here's a quick tutorial on how to start managing your Stripe accounts with PayPad.
+Here's a quick tutorial on how to start managing your Stripe accounts with Pay Pad.
 
 <br />
 
