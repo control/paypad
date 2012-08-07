@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Version 1.0.1 in the App Store!"
+excerpt:
+  We believe that it should be simple to keep track of your business financials no matter where you are. As small business owners, we aren't always around a computer. We might be at a coffee shop, on a golf course, in a meeting, or on a plane. Keeping track of real-time financials should not require us to be tied to an office.
+---
+
 #Version 1.0.1 in the App Store!
 
 Pay Pad for Stripe is the first iPad app built for the [Stripe](http://www.stripe.com) API.
