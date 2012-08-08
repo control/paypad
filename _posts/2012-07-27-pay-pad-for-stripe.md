@@ -13,7 +13,7 @@ For us mobile business professionals, we need the ability to accept payments whi
 
 Pay Pad for Stripe puts your Stripe account in your messenger bag (we prefer [these](http://www.timbuk2.com)). 
 
-#Features  
+##Features  
 - Charges: You can view your recent charges and get a quick view of their status. Paid, failed, refunded, it's all there.  
 - Refunds: You can refund a charge right from the charges view. You can also refund a customer's charge from the customer view.  
 - Customers: View your recent customers and see their charge history.  
@@ -23,12 +23,12 @@ Pay Pad for Stripe puts your Stripe account in your messenger bag (we prefer [th
 
 <a href="http://itunes.apple.com/us/app/pay-pad-for-stripe/id545150163?ls=1&mt=8"><img src="/img/app-store-badge.png" alt="Available in the App Store"></a>
 
-#Coming Soon...
+##Coming Soon...
 Pay Pad for Stripe is great for activley managing your Stripe account, but if you are like us, you need to delegating the monitoring of that account management because you are far too busy to watch it like a stock ticker. After all, you're not going to be swiping through your recent charges on the back-nine of your local TPC (just the front-nine). 
 
 We've built an active account monitoring system that keeps track of important events on your Stripe account and will send you Email and/or SMS alerts when one of those events is triggered. For example, let's say that you want to be notified every time a chargeback happens on your Stripe account. No problem, you can configure chargeback alerts to be delivered via SMS so you know right away what's going on. Need to send those chargebacks to someone in the back-office to investigate? Just configure the alert for email and setup an auto-forward rule on your email client. It's that simple!
 
 The notification system is in early Alpha testing right now and should move to Beta soon!
 
-#Feedback  
+##Feedback  
 Do you have any suggestions on how we can improve Pay Pad for Stripe? Send us a suggestion on the [support site](http://paypad.uservoice.com) or drop us a line at [suggestions@pay-pad.com](mailto:suggestions@pay-pad.com).

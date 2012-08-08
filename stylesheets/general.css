@@ -1,31 +1,9 @@
 body {
-    background:#eee; /* url("../img/bg/top.png") top left repeat-x; */
+    background:#eee;
     padding:40px 0 0;
     border-top:3px solid #ddd;
-}
-
-p {
-    text-shadow:#fff 0 1px 0;
-}
-
-a:link, a:visited {
-    color:#338bb8;
-    text-decoration:none;
-}
-
-a:hover {
-    color:#3799ca;
-    text-decoration:underline;
-    
-}
-
-h3 {
-    text-align:center;
-    font-size:32px;
-    line-height:40px;
     font-family: 'Open Sans', sans-serif;
-    font-weight:400;
-    margin:0 0 15px;
+    font-size: 14px;
 }
 
 .hand {
@@ -40,18 +18,65 @@ h3 {
     color:#aaa;
 }
 
-h2 {
-    text-align:center;
-    font-size:48px;
-    line-height:56px;
-    margin:15px 0;
+p {
     font-family: 'Open Sans', sans-serif;
-    font-weight:400;
+    text-shadow:#fff 0 1px 0;
+    font-size: 14px;
+    line-height: 18px;
 }
 
+a:link, a:visited {
+    color:#338bb8;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#3799ca;
+    text-decoration:underline;   
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 500;
+    text-align: left;
+    margin: 15px 0;
+}
+
+.motto {
+    text-align:center;
+}
+
+h3 {
+    text-align:center;
+    font-size:32px;
+    line-height:40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    margin:0 0 15px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
 
 h2 strong {
     font-weight:700;
+}
+
+h2.subheader {
+    text-align:center;
+    font-size:32px;
+    line-height:40px;
+    margin:0 0 15px;
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight:600;
+    color:#aaa;
 }
 
 h4 {
@@ -59,6 +84,11 @@ h4 {
     font-weight:600;
     font-size:16px;
     
+}
+
+ul {
+    font-size: 14px;
+    line-height: 18px;
 }
 
 /** NAV **/
