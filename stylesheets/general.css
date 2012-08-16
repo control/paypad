@@ -2,8 +2,8 @@ body {
     background:#eee;
     padding:40px 0 0;
     border-top:3px solid #ddd;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font: 15px/1.5 'Open Sans',Arial,'Liberation Sans',FreeSans,sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 .hand {
