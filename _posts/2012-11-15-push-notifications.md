@@ -21,3 +21,6 @@ With Pay Pad for Stripe you can use any Stripe account you want. The ability to 
 If you are an [Alerts for Stripe](http://www.pay-pad.com/alerts) customer, you can manage these push notifications the same way you currently manage your email and SMS alerts from Stripe. So if your current settings are configured to only notify you for new payments larger than $100, the push notifications will also honor that setting!
 
 [Download Pay Pad with Push Notifications today](http://itunes.apple.com/us/app/pay-pad-for-stripe-for-iphone/id558387939?ls=1)!
+
+
+*(push notifications are not available for Pay Pad Viewer)*
