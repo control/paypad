@@ -36,6 +36,10 @@ p {
   padding-top: 5px;
 }
 
+a {
+  color: #0099FF;
+}
+
 article {
   padding: 15px;
 }
