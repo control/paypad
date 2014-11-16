@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "PayPad: blog"
+title: "Pay Pad: blog"
 ---
 
 <div>

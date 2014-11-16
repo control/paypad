@@ -6,67 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Billy Coover" />
     <meta name="copyright" content="CoovTech, LLC" />
-    <meta name="description" content="PayPad for Stripe" />
-    <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap-responsive.min.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
-    <link rel="author" href="https://profiles.google.com/110690218781759841805" />
-    <link rel="me" type="text/html" href="http://profiles.google.com/billycoover?rel=me"> 
+    <meta name="description" content="Pay Pad for Stripe" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" />
+    <link rel="author" href="https://plus.google.com/110690218781759841805" />
+    <link rel="me" type="text/html" href="http://profiles.google.com/billycoover?rel=me">
     <link rel="me" type="text/html" href="http://twitter.com/billycoover">
     <link href="/img/favicon.png" rel="icon" type="image/x-png" />
     <link rel="Shortcut Icon" href="/images/favicon.png" type="image/x-icon" />
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
     <title>{{ page.title }}</title>
   </head>
-
   <body>
-    <header>
-      <div class="inner">
-        <h1>PayPad: blog</h1>
-        <h2>iPad app for the Stripe API</h2>
-      </div>
-    </header>
 
-    <div id="content-wrapper">
-
-      <div class="inner clearfix">
-        <section id="main-content">
-          <section id="posts">
-            {{ content }}
-          </section> 
-        </section>
-
-        <aside id="sidebar">
-
-          <p>The official blog for <a href="/">PayPad</a>.</p>
-
-          <p>This site was proudly built with <a href="http://pages.github.com/">GitHub Pages</a>, using the Architect theme by <a href="https://twitter.com/jasonlong">@jasonlong</a>.</p>
-          
-        </aside>
+    <div id="header">
+      <div class="top-menu">
+        <h1>
+          Pay Pad
+          <img src="https://s3.amazonaws.com/assest.pay-pad.com/assets/outline%402x.png" alt="Stripe" style="max-width:125px;" />
+        </h1>
       </div>
     </div>
 
-    <footer>
+    <div class="main-container">
 
-     <div style="margin:0px auto; width:50%; text-align: center">
-      <a href="/">Home</a> | <a href="/theblog">Blog</a> | <a href="/support">Support</a> | <a href="http://www.twitter.com/getpaypad">Twitter</a>
-      <br />
-
-      <div style="font-size: 16px;">
-        ©&nbsp;2012 CoovTech, LLC.
-        Contact <a href="http://coovtech.com/about">Billy Coover</a> for
-        <a href="mailto:info@pay-pad.com" > inquiries</a>. PayPad is built in sunny Scottsdale, AZ.
+      <div class="content">
+        <div class="row">
+           <div class="span12">
+            <div class="container section">
+              <h1 class="motto">
+                  The BEST Mobile account management for <strong><a href="http://www.stripe.com">Stripe</a></strong>
+              </h1>
+            </div>
+              {{ content }}
+            </div>
+        </div>
       </div>
+    </div>
 
-     </div>
 
+    <footer>
+      <a href="http://itunes.apple.com/us/app/pay-pad-for-stripe-for-iphone/id558387939?ls=1"><img src="https://s3.amazonaws.com/assest.pay-pad.com/app-store-badge.png" alt="Available in the App Store" /></a>
+      <ul class="links">
+        <li><a href="https://www.twitter.com/getcontrolapp">@getcontrolapp</a></li>
+        <li><a href="https://www.facebook.com/GetControlApp">facebook</a></li>
+        <li><a href="https://plus.google.com/111236309503160033824" rel="publisher">Google+</a></li>
+        <li><a href="http://blog.pay-pad.com/">Blog</a></li>
+        <li><a href="https://www.getcontrol.co/team">About</a></li>
+        <li><a href="http://support.getcontrol.co/">Support</a></li>
+        <li><a href="https://www.getcontrol.co/terms-of-use">Terms</a></li>
+      </ul>
+      <div style="clear:both;"></div>
+      <div class="company">
+          ©&nbsp;2012-2014 Control Mobile Inc.
+      </div>
     </footer>
+
+    <script type="text/javascript">
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '50031f81f5a1f5283d0000c6');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
 
   </body>
 </html>
