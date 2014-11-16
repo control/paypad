@@ -4,8 +4,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
-    <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="/stylesheets/device.css"/>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css"/>
 
     <title>{{ page.title }}</title>
   </head>
@@ -17,5 +16,20 @@
     <div class="device-container">
     {{ content }}
     </div>
+
+    <script type="text/javascript">
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '50031f81f5a1f5283d0000c6');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+    
   </body>
 </html>
